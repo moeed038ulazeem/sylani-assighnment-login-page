@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="side-pic">
+            
+            <img src="./canyon-7589820_1280.jpg" alt="Side Picture" height="400px">
+            
+        </div>
+        <div class="login-form">
+            <h2><b>Login</b></h2>
+            <p style="padding-left: 20px; color: blue;" >Welcome back! Please login to your account</p>
+            <form action="login.php" method="POST">
+                <div class="form-group">
+                    <label for="username">User Name</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <p>✔ Remember me</p>
+                <button type="submit">Login</button>
+            </form>
+            <br>
+            <br>
+            <div class="sign in">
+                <span>New User? <a href="#">SignUp</a></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
